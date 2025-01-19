@@ -1,0 +1,29 @@
+
+
+public class Email {
+	private String firstName;
+	private String lastName;
+	private String password;
+	private String department;
+	private String alternateEmail;
+	
+	private int mailboxCapacity;
+	
+	// Constructor to receive the firstName and lastName
+	
+	public Email(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		System.out.println("Email Created: " + this.firstName + " " + this.lastName);
+	}
+	
+	// Ask for department
+	
+	// Generate a random password
+	
+	// Set the mailbox capacity
+	
+	// Set the alternateEmail
+	
+	// Change the password
+}
